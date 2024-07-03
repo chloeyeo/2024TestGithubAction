@@ -22,12 +22,6 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
-          
-        # GITHUB_REPOSITORY = my github repo name
-        # GITHUB_SHA = This environment variable contains the commit SHA (Secure Hash Algorithm) of the commit currently being built.
-        # Every commit in a Git repository has a unique SHA hash associated with it.
-        # In GitHub Actions, $GITHUB_SHA allows you to reference this specific commit within your workflows.
-        # It's particularly useful if you need to tag or reference the commit in the workflow run or in subsequent steps of your CI/CD pipeline.
 
 			- name: print Github Actions Secret variables
 				run: |
