@@ -14,7 +14,7 @@ on:
 # 여러 Job은 기본적으로 병렬적으로 수행된다. Many jobs are ran IN PARALLEL by default.
 jobs: 
   # Job을 식별하기 위한 id   
-  My-Deploy-Job: # this is the TITLE of the job (can be any name)
+  My-Deploy-Job: 
 	  # Github Actions를 실행시킬 서버 종류 선택
     runs-on: ubuntu-latest # github action is a computer thus a server,
     # and we're specifying that will run on ubuntu-latest
