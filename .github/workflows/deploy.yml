@@ -13,7 +13,7 @@ jobs:
       - name: Hello World 찍기
         run: echo "Hello World"
         
-      - name: write multiple command line strings # using |
+      - name: write multiple command line strings
         run: |
           echo "Good"
           echo "Morning"
