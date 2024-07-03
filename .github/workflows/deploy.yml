@@ -1,4 +1,4 @@
-name: Github Actions 실행시켜보기
+name: Run Github Actions
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: Hello World 찍기
+      - name: print Hello World
         run: echo "Hello World"
         
       - name: write multiple command line strings
